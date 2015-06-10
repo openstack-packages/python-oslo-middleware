@@ -67,6 +67,9 @@ rm -fr %{buildroot}%{python2_sitelib}/%{pypi_name}/tests/
 %doc README.rst
 %{python2_sitelib}/oslo_middleware
 %{python2_sitelib}/*.egg-info
+# compatibility oslo namespace
+%{python2_sitelib}/oslo
+%{python2_sitelib}/*-nspkg.pth
 
 %files doc
 %license LICENSE
