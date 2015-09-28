@@ -18,9 +18,11 @@ BuildRequires:  python-oslo-context
 BuildRequires:  python-oslo-i18n
 
 Requires:       python-babel
+Requires:       python-jinja2
 Requires:       python-oslo-config
 Requires:       python-oslo-context
 Requires:       python-oslo-i18n
+Requires:       python-oslo-utils
 Requires:       python-six
 Requires:       python-stevedore
 Requires:       python-webob
