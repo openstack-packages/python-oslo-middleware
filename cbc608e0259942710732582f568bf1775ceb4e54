@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac1b152_7abb9172",
+        "filename": "python-oslo-middleware.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1005170
+      },
+      "writtenOn": "2015-12-17T16:12:48Z",
+      "side": 1,
+      "message": "do we want to convert to %{py_2_build} as well here?",
+      "range": {
+        "startLine": 125,
+        "startChar": 0,
+        "endLine": 125,
+        "endChar": 27
+      },
+      "revId": "cbc608e0259942710732582f568bf1775ceb4e54",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac1b152_9aaf8d2b",
+        "filename": "python-oslo-middleware.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1005170
+      },
+      "writtenOn": "2015-12-17T16:12:48Z",
+      "side": 1,
+      "message": "do we want to convert to %{py3_build} here as well? to keep build and install using same set of macros",
+      "range": {
+        "startLine": 128,
+        "startChar": 0,
+        "endLine": 128,
+        "endChar": 27
+      },
+      "revId": "cbc608e0259942710732582f568bf1775ceb4e54",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
