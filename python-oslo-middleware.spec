@@ -32,6 +32,7 @@ BuildRequires:  python-hacking
 BuildRequires:  python-mock
 BuildRequires:  python-oslotest
 BuildRequires:  python-testtools
+BuildRequires:  python-webob
 
 Requires:       python-babel
 Requires:       python-jinja2
@@ -67,6 +68,7 @@ BuildRequires:  python3-hacking
 BuildRequires:  python3-mock
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-testtools
+BuildRequires:  python3-webob
 
 Requires:       python3-babel
 Requires:       python3-jinja2
