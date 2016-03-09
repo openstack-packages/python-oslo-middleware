@@ -1,0 +1,9 @@
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Code-Review+1: Jon Schlueter <jschluet@redhat.com>
+Code-Review+1: Jason Joyce <jjoyce@redhat.com>
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Submitted-by: Alan Pevec <alan.pevec@redhat.com>
+Submitted-at: Wed, 09 Mar 2016 22:57:19 +0100
+Reviewed-on: https://review.gerrithub.io/265589
+Project: openstack-packages/python-oslo-middleware
+Branch: refs/heads/rpm-master
