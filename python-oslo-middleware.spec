@@ -5,9 +5,11 @@
 %global pypi_name oslo.middleware
 %global pkg_name oslo-middleware
 
+%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+
 Name:           python-oslo-middleware
-Version:        XXX
-Release:        XXX
+Version:        3.7.0
+Release:        1%{?dist}
 Summary:        OpenStack Oslo Middleware library
 
 License:        ASL 2.0
@@ -189,3 +191,6 @@ rm -rf .testrepository
 %{python2_sitelib}/oslo_middleware/tests/
 
 %changelog
+* Wed Mar 23 2016 Haikel Guemar <hguemar@fedoraproject.org> 3.7.0-
+- Update to 3.7.0
+
